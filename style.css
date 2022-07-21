@@ -1,0 +1,168 @@
+body{
+  background: #E7F6F2;
+}
+nav{
+  background: #303184;
+}
+nav:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+nav ul li{
+  float: left;
+  display: inline-block;
+  background: #303184;
+  margin: 0 5px;
+}
+nav ul li a{
+  color : white;
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 18px;
+  padding: 45px 20px;
+  font-family: sans-serif;
+}
+nav ul ul {
+  position: absolute;
+  top: 90px;
+  opacity: 1;
+  visibility: hidden;
+  transition: top.3s;
+}
+nav ul li:hover > ul{
+  top: 100px;
+  opacity: 1;
+  visibility: visible;
+
+}
+nav ul ul li{
+   position: relative;
+   margin: 0px;
+   width: 350px;
+   float: none;
+   display: list-item;
+   border-bottom: 1px solid rgb(166, 209, 230);
+}
+nav ul li a:hover{
+  color: cyan;
+}
+.logo{
+  float: left;
+}
+.p1{
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: cursive;
+  color: #303184;
+
+}
+.p2{
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: cursive;
+  color: grey;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.banner{
+  border-radius: 6px;
+}
+.p3{
+  margin-top: 25px;
+  font-size: 30px;
+  font-family: cursive;
+}
+.p4{
+  margin-left: 460px;
+  margin-right: 430px;
+  font-size: 24px;
+  font-family: cursive;
+  color: grey;
+  float:left;
+}
+.Origin{
+  margin-left: 460px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.p5{
+  margin-top: -10px;
+  margin-left: 460px;
+  margin-right: 430px;
+  font-size: 24px;
+  font-family: cursive;
+  color: grey;
+  float:left;
+}
+.Role{
+  margin-left: 460px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.p6{
+  margin-top: -10px;
+  margin-left: 460px;
+  margin-right: 430px;
+  font-size: 24px;
+  font-family: cursive;
+  color: grey;
+  float:left;
+}
+.p7{
+  margin-top: 350px;
+  margin-left: 0px;
+  font-size: 18px;
+  font-family: cursive;
+  color: #303184;
+}
+.p8{
+  margin-left: 24px;
+  font-size: 18px;
+  font-family: cursive;
+  color: #303184;
+}
+.Footer{
+  background: #303184;
+  overflow: auto;
+}
+.f1{
+  float: left;
+  margin-left: 740px;
+}
+.f2{
+  float: left;
+  margin-left: 60px;
+}
+.f3{
+  float: left;
+  margin-left: 60px;
+}
+.f4{
+  float: left;
+  margin-left: 690px;
+  color: grey;
+}
+.f5{
+  float: left;
+  margin-left: 60px;
+  color: grey;
+}
+.f6{
+  color: #E7F6F2;
+  font-size: 20px;
+}
+div a{
+  text-decoration: none;
+  color: #E7F6F2;
+}
